@@ -17,9 +17,11 @@ class mainTemp{
     </head>
     <body>
     <?php
-     include "header.php";
-     echo $code;
-     include "footer.php"; ?>
+     include "header.php"; ?>
+     <div id=allPage>
+     <?php echo $code; ?>
+     </div>
+     <?php include "footer.php"; ?>
     </body>
     </html>
 <?php

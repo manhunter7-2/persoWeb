@@ -1,3 +1,8 @@
+html,body{
+    width:100%;
+    height: 100%;
+}
+
 header{
     top:0;
     position: fixed;
@@ -19,8 +24,30 @@ body{
     margin-top:3%;
     margin-bottom:5%;
     margin-left: 0;
+    resize:none;
+    /*overflow: auto;*/
 }
 
 #goToForm{
     margin-left: 75%;
+}
+
+#allPage{ /* over 1200 px */
+    border: 2px solid red;
+    width: 100%;
+    margin-top: 2%;
+    /*resize: both;*/
+
+}
+
+@media only screen and (max-width: 600px) {
+    #allPage{
+        margin-top: 9%;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    #allPage{
+        margin-top: 5%;
+    }
 }
