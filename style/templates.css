@@ -7,7 +7,7 @@ header{
     top:0;
     position: fixed;
     background-color: blue;
-    height: 5%;
+    height: 7%;
     width: 100%;
     margin: 0 auto;
 }
@@ -24,8 +24,6 @@ body{
     margin-top:3%;
     margin-bottom:5%;
     margin-left: 0;
-    resize:none;
-    /*overflow: auto;*/
 }
 
 #goToForm{
@@ -50,4 +48,8 @@ body{
     #allPage{
         margin-top: 5%;
     }
+}
+
+#header-dropdown{
+    left: 80%;
 }
