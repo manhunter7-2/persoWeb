@@ -6,7 +6,7 @@
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     <a class="dropdown-item" href="<?php echo($GLOBALS['PAGES']."creators_profile.php"); ?>">Creator's profile</a>
-    <a class="dropdown-item" href="#">Something else here</a>
+    <a class="dropdown-item" href="">Something else here</a>
   </div>
 </div>
 </header>
